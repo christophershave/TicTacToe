@@ -1,1 +1,4 @@
-﻿Console.WriteLine("Hello, Santa! Todays date is:" + DateTime.UtcNow);
+﻿using TicTacToe.ConsoleApp;
+
+var gameBoard = new GameBoard();
+gameBoard.DrawBoard();
